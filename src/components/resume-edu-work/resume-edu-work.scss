@@ -1,0 +1,99 @@
+.resume-edu-work {
+
+}
+
+.my-resume {
+    padding: 101px 0;
+    background-color: #f2f2f1;
+    position: relative;
+
+    &:after {
+      display: block;
+      content: '';
+      background-image: url(../images/resume-after.png);
+      background-repeat: no-repeat;
+      height: 21px;
+      width: 58px;
+      position: absolute;
+      bottom: -21px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+  &__container {
+    text-align: center;
+  }
+
+  &__description {
+    padding: 0 70px;
+    margin-bottom: 41px;
+  }
+
+  &__button {
+    color: #2ecc71;
+    border: 2px solid #2ecc71;
+    padding: 14px 20px;
+  }
+
+}
+
+.my-edu {
+  padding-top: 97px;
+  padding-bottom: 23px;
+
+}
+
+.my-work {
+  padding-top: 97px;
+  padding-bottom: 23px;
+
+  &__jobs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__job {
+    padding-bottom: 38px;
+
+    &-wrap {
+      display: flex;
+      color: #919191;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 30px;
+      margin-bottom: 12px;
+    }
+
+    &-title {
+      color: #566366;
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 24px;
+      text-transform: uppercase;
+      margin-bottom: 7px;
+    }
+
+    &-company,
+    &-town {
+      font-weight: 500;
+    }
+
+    &-years {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 71px;
+      height: 29px;
+      background-color: #2ecc71;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 700;
+      margin-bottom: 29px;
+    }
+  }
+
+  &__description {
+    border-top: 1px solid #ccc;
+    padding-top: 13px;
+  }
+}

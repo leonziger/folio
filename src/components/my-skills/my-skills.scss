@@ -1,0 +1,48 @@
+.my-skills {
+  padding-top: 96px;
+  padding-bottom: 180px;
+
+  &__delimiter {
+    border-bottom: 1px solid #ccc;
+  }
+
+  &__container {
+    display: flex;
+
+    @media(max-width: 992px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__left {
+    width: 50%;
+    padding-right: 25px;
+
+    @media(max-width: 992px) {
+      padding-right: 0;
+      width: 100%;
+    }
+  }
+
+  &__right {
+    width: 50%;
+    padding-left: 30px;
+    padding-top: 73px;
+
+    @media(max-width: 992px) {
+      padding-left: 0;
+      padding-right: 0;
+      width: 100%;
+    }
+  }
+
+  &__description {
+    margin-bottom: 40px;
+  }
+
+  &__button {
+    color: #2ecc71;
+    border: 2px solid #2ecc71;
+  }
+}

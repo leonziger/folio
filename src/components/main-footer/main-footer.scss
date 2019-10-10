@@ -1,0 +1,21 @@
+.main-footer {
+  background-color: #191f21;
+  padding-top: 42px;
+  padding-bottom: 52px;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__copyright {
+    color: #4b5456;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+}

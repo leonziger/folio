@@ -1,0 +1,26 @@
+.button {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: inline-flex ;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  min-height: 38px;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: transparent;
+  padding: 14px 35px;
+  transition: $delay;
+
+  &:hover {
+    background-color: #2ecc71;
+    color: #fff;
+  }
+
+  &__icon{
+    margin-right: 13px;
+  }
+}

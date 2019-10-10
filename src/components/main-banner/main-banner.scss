@@ -1,0 +1,33 @@
+.main-banner {
+  padding-bottom: 92px;
+
+  &__values {
+    padding-top: 99px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media(max-width: 840px) {
+      flex-direction: column;
+      max-width: 800px;
+    }
+  }
+
+  &__value {
+    max-width: 358px;
+    width: 30%;
+
+    @media(max-width: 840px) {
+      max-width: 100%;
+      width: 100%;
+      text-align: justify;
+    }
+
+    &-description {
+
+      @media(max-width: 840px) {
+        padding-bottom: 39px;
+      }
+    }
+  }
+}

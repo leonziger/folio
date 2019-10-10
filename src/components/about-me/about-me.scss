@@ -1,0 +1,79 @@
+.about-me {
+  background-color: #f2f2f1;
+
+  &__container {
+    display: flex;
+
+    @media(max-width: 992px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__description {
+    margin-bottom: 67px;
+  }
+
+  &__left-img {
+    max-width: 612px;
+    align-self: center;
+    margin-left: -211px;
+
+    @media(max-width: 992px) {
+      margin-left: 0;
+    }
+  }
+
+  &__right {
+    padding-left: 100px;
+    padding-top: 97px;
+  }
+
+  &__vantages {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -100px;
+
+    @media(max-width: 1400px) {
+      margin-right: 0;
+    }
+  }
+
+  &__vantage {
+    display: flex;
+    max-width: 330px;
+    margin-bottom: 48px;
+    margin-right: 39px;
+
+    @media(max-width: 1400px) {
+      max-width: 300px;
+    }
+
+    @media(max-width: 1200px) {
+      max-width: 100%;
+      margin-right: 0;
+    }
+
+    &-icon {
+      align-self: flex-start;
+      padding-right: 29px;
+    }
+
+    &-title {
+      color: #566366;
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 24px;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+    }
+
+    &-description {
+      color: #919191;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30px;
+    }
+  }
+
+}
