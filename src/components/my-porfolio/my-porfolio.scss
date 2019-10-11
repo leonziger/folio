@@ -2,6 +2,11 @@
   padding-top: 97px;
   padding-bottom: 81px;
 
+  @media(max-width: 992px) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   &__container {
     text-align: center;
   }
@@ -50,6 +55,10 @@
 
     @media(max-width: 1340px) {
       margin: 10px;
+    }
+
+    @media(max-width: 1200px) {
+
     }
 
     @media(max-width: 840px) {

@@ -20,6 +20,10 @@
       transform: translateX(-50%);
     }
 
+    @media(max-width: 992px) {
+      padding: 50px 0;
+    }
+
   &__container {
     text-align: center;
   }
@@ -27,6 +31,10 @@
   &__description {
     padding: 0 70px;
     margin-bottom: 41px;
+
+    @media(max-width: 992px) {
+      padding: 0;
+    }
   }
 
   &__button {
@@ -41,11 +49,19 @@
   padding-top: 97px;
   padding-bottom: 23px;
 
+  @media(max-width: 992px) {
+    padding-top: 50px;
+  }
+
 }
 
 .my-work {
   padding-top: 97px;
   padding-bottom: 23px;
+
+  @media(max-width: 992px) {
+    padding-top: 50px;
+  }
 
   &__jobs {
     display: flex;
@@ -57,6 +73,7 @@
 
     &-wrap {
       display: flex;
+      flex-wrap: wrap;
       color: #919191;
       font-size: 18px;
       font-weight: 500;

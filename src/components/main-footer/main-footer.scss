@@ -3,6 +3,11 @@
   padding-top: 42px;
   padding-bottom: 52px;
 
+  @media(max-width: 992px) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
   &__container {
     display: flex;
     flex-direction: column;
@@ -17,5 +22,9 @@
     line-height: 30px;
     text-transform: uppercase;
     margin-bottom: 20px;
+
+    @media(max-width: 992px) {
+      margin-bottom: 10px;
+    }
   }
 }

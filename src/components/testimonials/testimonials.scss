@@ -3,6 +3,11 @@
   padding-bottom: 147px;
   background-color: #f2f2f1;
 
+  @media(max-width: 992px) {
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
+
   &__container {
     padding: 0 10px;
     max-width: 1068px;
@@ -52,6 +57,12 @@
     font-weight: 400;
     font-style: italic;
     line-height: 36px;
+
+    @media(max-width: 992px) {
+      padding-left: 15px;
+      padding-right: 15px;
+      font-size: 18px;
+    }
   }
 
   &__author {
