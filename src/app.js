@@ -9,3 +9,4 @@ import './components/sticky-menu/sticky-menu';
 import './components/testimonials/testimonials';
 import './components/my-porfolio/my-porfolio';
 import './components/my-skills/my-skills';
+import './components/scroll-up/scroll-up';
