@@ -119,28 +119,30 @@
             </div>
             <a href="#contact-me" class="button my-skills__button">Contact Me</a>
         </div>
-        <div class="my-skills__right">
-            <ul>
-                <li>
-                    <div class="sub_subtitle">Photoshop</div>
-                    <div id="photoshop">
-                        <div class="progressbar" style="width: 100%; background-color: rgb(238, 238, 238); border-radius: 0px;">
-                            <div class="proggress" style="background-color: rgb(46, 204, 113); height: 30px; border-radius: 0px; overflow: hidden; width: 90%;"></div>
-                            <div class="percentCount">90%</div>
-                        </div>
+        <div class="my-skills__right diagram-correction">
+            <ul class="my-skills__diagram">
+                <li class="my-skills__line">
+                    <div class="my-skills__line-title">Photoshop</div>
+                    <div id="photoshop" data-progressbar="75">
                     </div>
                 </li>
-                <li>
-                    <div class="sub_subtitle">Illustrator</div>
-                    <div id="illustrator"><div class="progressbar" style="width: 100%; background-color: rgb(238, 238, 238); border-radius: 0px;"><div class="proggress" style="background-color: rgb(46, 204, 113); height: 30px; border-radius: 0px; overflow: hidden; width: 80%;"></div><div class="percentCount">80%</div></div></div>
+                <li class="my-skills__line">
+                    <div class="my-skills__line-title">Illustrator</div>
+                    <div id="illustrator" data-progressbar="90">
+
+                    </div>
                 </li>
-                <li>
-                    <div class="sub_subtitle">HTML / CSS</div>
-                    <div id="htmlcss"><div class="progressbar" style="width: 100%; background-color: rgb(238, 238, 238); border-radius: 0px;"><div class="proggress" style="background-color: rgb(46, 204, 113); height: 30px; border-radius: 0px; overflow: hidden; width: 90%;"></div><div class="percentCount">90%</div></div></div>
+                <li class="my-skills__line">
+                    <div class="my-skills__line-title">HTML / CSS</div>
+                    <div id="htmlcss"  data-progressbar="80">
+
+                    </div>
                 </li>
-                <li>
-                    <div class="sub_subtitle">PHP / MYSQL</div>
-                    <div id="phpmysql"><div class="progressbar" style="width: 100%; background-color: rgb(238, 238, 238); border-radius: 0px;"><div class="proggress" style="background-color: rgb(46, 204, 113); height: 30px; border-radius: 0px; overflow: hidden; width: 70%;"></div><div class="percentCount">70%</div></div></div>
+                <li class="my-skills__line">
+                    <div class="my-skills__line-title">PHP / MYSQL</div>
+                    <div id="phpmysql"  data-progressbar="65">
+
+                    </div>
                 </li>
             </ul>
         </div>
@@ -298,145 +300,147 @@
                 <a href="" data-filter=".webpack" class="my-portfolio__works-menu-link">webpack</a>
             </li>
         </ul>
-        <ul class="my-portfolio__works">
-            <li class="my-portfolio__work pug gulp">
-                <div class="my-portfolio__work-visible">
-                    <img src="images/wezom366x300.png" alt="" class="my-portfolio__work-img">
-                </div>
-                <div class="my-portfolio__work-hidden">
-                    <p class="my-portfolio__work-title">Страница интернет-магазина</p>
-                    <p class="my-portfolio__work-link">
-                        <a href="http://sitesdepot.ru/works/test-market/" target="_blank">веб-ресурс</a>
-                    </p>
-                    <p class="my-portfolio__work-link">
-                        <a href="https://github.com/leonziger/test-market/" target="_blank">код на гитхабе</a>
-                    </p>
-                    <p><span class="strong">Кодинг/разметка:</span> HTML(pug)+SCSS.</p>
-                    <p><span class="strong">Плагины/библиотеки:</span> jQuery, vanilla-text-mask, jquery.maskedinput, jquery-validation, vex-js,
-                        toastr.js.</p>
-                    <p><span class="strong">Сборка проекта:</span> gulp.</p>
-                </div>
-            </li>
-            <li class="my-portfolio__work pug gulp">
-                <div class="my-portfolio__work-visible">
-                    <img src="images/ayudag366x300.png" alt="" class="my-portfolio__work-img">
-                </div>
-                <div class="my-portfolio__work-hidden">
-                    <p class="my-portfolio__work-title">Лендинг отеля</p>
-                    <p class="my-portfolio__work-link">
-                        <a href="http://sitesdepot.ru/works/ayu-dag/" target="_blank">веб-ресурс</a>
-                    </p>
-                    <p class="my-portfolio__work-link">
-                        <a href="https://github.com/leonziger/ayu-dag" target="_blank">код на гитхабе</a>
-                    </p>
-                    <p><span class="strong">Кодинг/разметка:</span> HTML(pug)+SCSS.</p>
-                    <p><span class="strong">Плагины/библиотеки:</span> jQuery, vanilla-text-mask, jquery.maskedinput, jquery-validation, vex-js.</p>
-                    <p><span class="strong">Сборка проекта:</span> gulp.</p>
-                </div>
-            </li>
-            <li class="my-portfolio__work pug gulp">
-                <div class="my-portfolio__work-visible">
-                    <img src="images/strat366x300.png" alt="" class="my-portfolio__work-img">
-                </div>
-                <div class="my-portfolio__work-hidden">
-                    <p class="my-portfolio__work-title">Страница консалтинговой фирмы</p>
-                    <p class="my-portfolio__work-link">
-                        <a href="https://leonziger.github.io/stratg/" target="_blank">веб-ресурс</a>
-                    </p>
-                    <p class="my-portfolio__work-link">
-                        <a href="https://github.com/leonziger/stratg" target="_blank">код на гитхабе</a>
-                    </p>
-                    <p><span class="strong">Кодинг/разметка:</span> HTML(pug)+SCSS.</p>
-                    <p><span class="strong">Плагины/библиотеки:</span> jQuery, vanilla-text-mask.</p>
-                    <p><span class="strong">Сборка проекта:</span> gulp.</p>
-                </div>
-            </li>
-            <li class="my-portfolio__work">
-                <div class="my-portfolio__work-visible">
-                    <img src="images/strat366x300.png" alt="" class="my-portfolio__work-img">
-                </div>
-                <div class="my-portfolio__work-hidden">
-                    <p class="my-portfolio__work-title">Страница консалтинговой фирмы</p>
-                    <p class="my-portfolio__work-link">
-                        <a href="https://leonziger.github.io/stratg/" target="_blank">веб-ресурс</a>
-                    </p>
-                    <p class="my-portfolio__work-link">
-                        <a href="https://github.com/leonziger/stratg" target="_blank">код на гитхабе</a>
-                    </p>
-                    <p><span class="strong">Кодинг/разметка:</span> HTML(pug)+SCSS.</p>
-                    <p><span class="strong">Плагины/библиотеки:</span> jQuery, vanilla-text-mask.</p>
-                    <p><span class="strong">Сборка проекта:</span> gulp.</p>
-                </div>
-            </li>
-            <li class="my-portfolio__work">
-                <div class="my-portfolio__work-visible">
-                    <img src="images/strat366x300.png" alt="" class="my-portfolio__work-img">
-                </div>
-                <div class="my-portfolio__work-hidden">
-                    <p class="my-portfolio__work-title">Страница консалтинговой фирмы</p>
-                    <p class="my-portfolio__work-link">
-                        <a href="https://leonziger.github.io/stratg/" target="_blank">веб-ресурс</a>
-                    </p>
-                    <p class="my-portfolio__work-link">
-                        <a href="https://github.com/leonziger/stratg" target="_blank">код на гитхабе</a>
-                    </p>
-                    <p><span class="strong">Кодинг/разметка:</span> HTML(pug)+SCSS.</p>
-                    <p><span class="strong">Плагины/библиотеки:</span> jQuery, vanilla-text-mask.</p>
-                    <p><span class="strong">Сборка проекта:</span> gulp.</p>
-                </div>
-            </li>
-            <li class="my-portfolio__work">
-                <div class="my-portfolio__work-visible">
-                    <img src="images/strat366x300.png" alt="" class="my-portfolio__work-img">
-                </div>
-                <div class="my-portfolio__work-hidden">
-                    <p class="my-portfolio__work-title">Страница консалтинговой фирмы</p>
-                    <p class="my-portfolio__work-link">
-                        <a href="https://leonziger.github.io/stratg/" target="_blank">веб-ресурс</a>
-                    </p>
-                    <p class="my-portfolio__work-link">
-                        <a href="https://github.com/leonziger/stratg" target="_blank">код на гитхабе</a>
-                    </p>
-                    <p><span class="strong">Кодинг/разметка:</span> HTML(pug)+SCSS.</p>
-                    <p><span class="strong">Плагины/библиотеки:</span> jQuery, vanilla-text-mask.</p>
-                    <p><span class="strong">Сборка проекта:</span> gulp.</p>
-                </div>
-            </li>
-            <li class="my-portfolio__work">
-                <div class="my-portfolio__work-visible">
-                    <img src="images/strat366x300.png" alt="" class="my-portfolio__work-img">
-                </div>
-                <div class="my-portfolio__work-hidden">
-                    <p class="my-portfolio__work-title">Страница консалтинговой фирмы</p>
-                    <p class="my-portfolio__work-link">
-                        <a href="https://leonziger.github.io/stratg/" target="_blank">веб-ресурс</a>
-                    </p>
-                    <p class="my-portfolio__work-link">
-                        <a href="https://github.com/leonziger/stratg" target="_blank">код на гитхабе</a>
-                    </p>
-                    <p><span class="strong">Кодинг/разметка:</span> HTML(pug)+SCSS.</p>
-                    <p><span class="strong">Плагины/библиотеки:</span> jQuery, vanilla-text-mask.</p>
-                    <p><span class="strong">Сборка проекта:</span> gulp.</p>
-                </div>
-            </li>
-            <li class="my-portfolio__work webpack">
-                <div class="my-portfolio__work-visible">
-                    <img src="images/clubc366x300.png" alt="" class="my-portfolio__work-img">
-                </div>
-                <div class="my-portfolio__work-hidden">
-                    <p class="my-portfolio__work-title">Многострочный адаптивный слайдер</p>
-                    <p class="my-portfolio__work-link">
-                        <a href="https://leonziger.github.io/c-club/" target="_blank">веб-ресурс</a>
-                    </p>
-                    <p class="my-portfolio__work-link">
-                        <a href="https://github.com/leonziger/c-club" target="_blank">код на гитхабе</a>
-                    </p>
-                    <p><span class="strong">Кодинг/разметка:</span> HTML+SCSS.</p>
-                    <p><span class="strong">Плагины/библиотеки:</span> jQuery,  slick-carousel.</p>
-                    <p><span class="strong">Сборка проекта:</span> webpack.</p>
-                </div>
-            </li>
-        </ul>
+        <div class="my-portfolio__works-wrapper">
+            <ul class="my-portfolio__works">
+                <li class="my-portfolio__work pug gulp">
+                    <div class="my-portfolio__work-visible">
+                        <img src="images/wezom366x300.png" alt="" class="my-portfolio__work-img">
+                    </div>
+                    <div class="my-portfolio__work-hidden">
+                        <p class="my-portfolio__work-title">Страница интернет-магазина</p>
+                        <p class="my-portfolio__work-link">
+                            <a href="http://sitesdepot.ru/works/test-market/" target="_blank">веб-ресурс</a>
+                        </p>
+                        <p class="my-portfolio__work-link">
+                            <a href="https://github.com/leonziger/test-market/" target="_blank">код на гитхабе</a>
+                        </p>
+                        <p><span class="strong">Кодинг/разметка:</span> HTML(pug)+SCSS.</p>
+                        <p><span class="strong">Плагины/библиотеки:</span> jQuery, vanilla-text-mask, jquery.maskedinput, jquery-validation, vex-js,
+                            toastr.js.</p>
+                        <p><span class="strong">Сборка проекта:</span> gulp.</p>
+                    </div>
+                </li>
+                <li class="my-portfolio__work pug gulp">
+                    <div class="my-portfolio__work-visible">
+                        <img src="images/ayudag366x300.png" alt="" class="my-portfolio__work-img">
+                    </div>
+                    <div class="my-portfolio__work-hidden">
+                        <p class="my-portfolio__work-title">Лендинг отеля</p>
+                        <p class="my-portfolio__work-link">
+                            <a href="http://sitesdepot.ru/works/ayu-dag/" target="_blank">веб-ресурс</a>
+                        </p>
+                        <p class="my-portfolio__work-link">
+                            <a href="https://github.com/leonziger/ayu-dag" target="_blank">код на гитхабе</a>
+                        </p>
+                        <p><span class="strong">Кодинг/разметка:</span> HTML(pug)+SCSS.</p>
+                        <p><span class="strong">Плагины/библиотеки:</span> jQuery, vanilla-text-mask, jquery.maskedinput, jquery-validation, vex-js.</p>
+                        <p><span class="strong">Сборка проекта:</span> gulp.</p>
+                    </div>
+                </li>
+                <li class="my-portfolio__work pug gulp">
+                    <div class="my-portfolio__work-visible">
+                        <img src="images/strat366x300.png" alt="" class="my-portfolio__work-img">
+                    </div>
+                    <div class="my-portfolio__work-hidden">
+                        <p class="my-portfolio__work-title">Страница консалтинговой фирмы</p>
+                        <p class="my-portfolio__work-link">
+                            <a href="https://leonziger.github.io/stratg/" target="_blank">веб-ресурс</a>
+                        </p>
+                        <p class="my-portfolio__work-link">
+                            <a href="https://github.com/leonziger/stratg" target="_blank">код на гитхабе</a>
+                        </p>
+                        <p><span class="strong">Кодинг/разметка:</span> HTML(pug)+SCSS.</p>
+                        <p><span class="strong">Плагины/библиотеки:</span> jQuery, vanilla-text-mask.</p>
+                        <p><span class="strong">Сборка проекта:</span> gulp.</p>
+                    </div>
+                </li>
+                <li class="my-portfolio__work">
+                    <div class="my-portfolio__work-visible">
+                        <img src="images/strat366x300.png" alt="" class="my-portfolio__work-img">
+                    </div>
+                    <div class="my-portfolio__work-hidden">
+                        <p class="my-portfolio__work-title">Страница консалтинговой фирмы</p>
+                        <p class="my-portfolio__work-link">
+                            <a href="https://leonziger.github.io/stratg/" target="_blank">веб-ресурс</a>
+                        </p>
+                        <p class="my-portfolio__work-link">
+                            <a href="https://github.com/leonziger/stratg" target="_blank">код на гитхабе</a>
+                        </p>
+                        <p><span class="strong">Кодинг/разметка:</span> HTML(pug)+SCSS.</p>
+                        <p><span class="strong">Плагины/библиотеки:</span> jQuery, vanilla-text-mask.</p>
+                        <p><span class="strong">Сборка проекта:</span> gulp.</p>
+                    </div>
+                </li>
+                <li class="my-portfolio__work">
+                    <div class="my-portfolio__work-visible">
+                        <img src="images/strat366x300.png" alt="" class="my-portfolio__work-img">
+                    </div>
+                    <div class="my-portfolio__work-hidden">
+                        <p class="my-portfolio__work-title">Страница консалтинговой фирмы</p>
+                        <p class="my-portfolio__work-link">
+                            <a href="https://leonziger.github.io/stratg/" target="_blank">веб-ресурс</a>
+                        </p>
+                        <p class="my-portfolio__work-link">
+                            <a href="https://github.com/leonziger/stratg" target="_blank">код на гитхабе</a>
+                        </p>
+                        <p><span class="strong">Кодинг/разметка:</span> HTML(pug)+SCSS.</p>
+                        <p><span class="strong">Плагины/библиотеки:</span> jQuery, vanilla-text-mask.</p>
+                        <p><span class="strong">Сборка проекта:</span> gulp.</p>
+                    </div>
+                </li>
+                <li class="my-portfolio__work">
+                    <div class="my-portfolio__work-visible">
+                        <img src="images/strat366x300.png" alt="" class="my-portfolio__work-img">
+                    </div>
+                    <div class="my-portfolio__work-hidden">
+                        <p class="my-portfolio__work-title">Страница консалтинговой фирмы</p>
+                        <p class="my-portfolio__work-link">
+                            <a href="https://leonziger.github.io/stratg/" target="_blank">веб-ресурс</a>
+                        </p>
+                        <p class="my-portfolio__work-link">
+                            <a href="https://github.com/leonziger/stratg" target="_blank">код на гитхабе</a>
+                        </p>
+                        <p><span class="strong">Кодинг/разметка:</span> HTML(pug)+SCSS.</p>
+                        <p><span class="strong">Плагины/библиотеки:</span> jQuery, vanilla-text-mask.</p>
+                        <p><span class="strong">Сборка проекта:</span> gulp.</p>
+                    </div>
+                </li>
+                <li class="my-portfolio__work">
+                    <div class="my-portfolio__work-visible">
+                        <img src="images/strat366x300.png" alt="" class="my-portfolio__work-img">
+                    </div>
+                    <div class="my-portfolio__work-hidden">
+                        <p class="my-portfolio__work-title">Страница консалтинговой фирмы</p>
+                        <p class="my-portfolio__work-link">
+                            <a href="https://leonziger.github.io/stratg/" target="_blank">веб-ресурс</a>
+                        </p>
+                        <p class="my-portfolio__work-link">
+                            <a href="https://github.com/leonziger/stratg" target="_blank">код на гитхабе</a>
+                        </p>
+                        <p><span class="strong">Кодинг/разметка:</span> HTML(pug)+SCSS.</p>
+                        <p><span class="strong">Плагины/библиотеки:</span> jQuery, vanilla-text-mask.</p>
+                        <p><span class="strong">Сборка проекта:</span> gulp.</p>
+                    </div>
+                </li>
+                <li class="my-portfolio__work webpack">
+                    <div class="my-portfolio__work-visible">
+                        <img src="images/clubc366x300.png" alt="" class="my-portfolio__work-img">
+                    </div>
+                    <div class="my-portfolio__work-hidden">
+                        <p class="my-portfolio__work-title">Многострочный адаптивный слайдер</p>
+                        <p class="my-portfolio__work-link">
+                            <a href="https://leonziger.github.io/c-club/" target="_blank">веб-ресурс</a>
+                        </p>
+                        <p class="my-portfolio__work-link">
+                            <a href="https://github.com/leonziger/c-club" target="_blank">код на гитхабе</a>
+                        </p>
+                        <p><span class="strong">Кодинг/разметка:</span> HTML+SCSS.</p>
+                        <p><span class="strong">Плагины/библиотеки:</span> jQuery,  slick-carousel.</p>
+                        <p><span class="strong">Сборка проекта:</span> webpack.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
 </section><div class="contact-me" id="contact-me">
     <div class="container contact-me__container">
