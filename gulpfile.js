@@ -17,6 +17,7 @@ const uglify = require('gulp-uglify');
 const panini = require('panini');
 const htmlmin = require('gulp-htmlmin');
 const isDevelopment = process.env.NODE_ENV !== 'production';
+const ghpages = require('gh-pages');
 
 gulp.task('views', function() {
     panini.refresh();

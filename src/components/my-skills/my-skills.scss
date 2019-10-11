@@ -37,6 +37,23 @@
     }
   }
 
+  &__diagram {
+    max-width: 560px;
+  }
+
+  &__line {
+    margin-bottom: 37px;
+
+    &-title {
+      color: #566366;
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 24px;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+    }
+  }
+
   &__description {
     margin-bottom: 40px;
   }
@@ -45,4 +62,9 @@
     color: #2ecc71;
     border: 2px solid #2ecc71;
   }
+}
+
+.diagram-correction {
+  padding-left: 50px;
+  padding-top: 37px;
 }
