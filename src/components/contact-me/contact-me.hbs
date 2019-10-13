@@ -1,47 +1,45 @@
 <div class="contact-me" id="contact-me">
+    <div class="container">
+        <div class="title contact-me__headline">Мои контакты</div>
+    </div>
     <div class="container contact-me__container">
         <div class="contact-me__left">
-            <div class="title contact-me__headline">Contact me</div>
             <div class="contact-me__description">
-                <p>Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei.</p>
-                <p>122 33rd Street East<br>
-                    Saskatoon, SK<br>
-                    S7K 1R9
-                </p>
+                <p>Если у вас есть идеи и предложения, которые очень хочется обсудить, вы можете позвонить мне по телефону или написать на email.</p>
+                <!--<p>122 33rd Street East<br>-->
+                    <!--Saskatoon, SK<br>-->
+                    <!--S7K 1R9-->
+                <!--</p>-->
                 <ul class="contact-me__items">
                     <li class="contact-me__item">
                         <div class="contact-me__item-name">Email:</div><div class="contact-me__item-value">infor@focal.com</div>
                     </li>
                     <li class="contact-me__item">
-                        <div class="contact-me__item-name">Phone:</div><div class="contact-me__item-value">1-306-222-2323</div>
+                        <div class="contact-me__item-name">Телефон:</div><div class="contact-me__item-value">+38-050-868-7240</div>
                     </li>
                 </ul>
             </div>
         </div>
         <div class="contact-me__right">
-            <form class="contact-me__form">
-                <div class="contact-me__field-wrap">
-                    <label for="name">
-                        <div class="contact-me__field-name">Name *</div>
-                        <input type="text" name="name" id="name" class="contact-me__form-field">
-                    </label>
+
+            <form class="contact-form">
+                <div class="contact-form__field-wrap">
+                    <input placeholder="Имя *" name="name" class="contact-form__field" autocomplete="off">
                 </div>
-                <div class="contact-me__field-wrap">
-                    <label for="email">
-                        <div class="contact-me__field-name">Email Address *</div>
-                        <input type="email" name="name" id="email" class="contact-me__form-field">
-                    </label>
+                <div class="contact-form__field-wrap">
+                    <input placeholder="Телефон *" type="tel" name="phone" class="contact-form__field" autocomplete="off">
                 </div>
-                <div class="contact-me__field-wrap">
-                    <label for="message">
-                        <div class="contact-me__field-name">Message *</div>
-                        <textarea name="message" id="message" class="contact-me__form-area"></textarea>
-                    </label>
+                <div class="contact-form__field-wrap">
+                    <input placeholder="Email *"  name="email" class="contact-form__field" autocomplete="off">
                 </div>
-                <div class="contact-me__submit-wrapper">
-                    <button class="button contact-me__submit">Contact me</button>
+                <div class="contact-form__field-wrap">
+                    <textarea placeholder="Сообщение" name="message" id="message" class="contact-form__area"></textarea>
+                </div>
+                <div class="contact-form__submit-wrapper">
+                    <button class="button contact-form__submit">Напишите мне</button>
                 </div>
             </form>
+
         </div>
     </div>
 </div>
