@@ -15,7 +15,7 @@ const bro = require('gulp-bro');
 const babelify = require('babelify');
 const uglify = require('gulp-uglify');
 const panini = require('panini');
-const htmlmin = require('gulp-htmlmin');
+// const htmlmin = require('gulp-htmlmin');
 const isDevelopment = process.env.NODE_ENV !== 'production';
 const ghpages = require('gh-pages');
 
@@ -29,10 +29,10 @@ gulp.task('views', function() {
             partials: './src/components'
         }))
         .pipe(rename({ extname: '.html' }))
-        .pipe(gulpIf(!isDevelopment, htmlmin({
-            collapseWhitespace: true,
-            minifyJS: true
-        })))
+        // .pipe(gulpIf(!isDevelopment, htmlmin({
+        //     collapseWhitespace: true,
+        //     minifyJS: true
+        // })))
         .pipe(gulp.dest('./public'));
 });
 
