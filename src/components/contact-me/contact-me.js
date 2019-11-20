@@ -94,5 +94,6 @@ phone.mask('+380 (99) 999-99-99', { autoclear: false });
 
 
 cbForm.click( function() {
-    validator.form();
+    validator.form(); // show errors under all fields
+    validator.checkForm(); // show error under current field
 } );

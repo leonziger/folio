@@ -1,13 +1,13 @@
 .main-banner {
-  padding-bottom: 92px;
+  padding-bottom: 70px;
 
   @media(max-width: 992px) {
     padding-bottom: 50px;
   }
 
   &__values {
+    display: none;
     padding-top: 150px;
-    display: flex;
     justify-content: space-between;
 
     @media(max-width: 992px) {
