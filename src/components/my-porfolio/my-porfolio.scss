@@ -27,6 +27,7 @@
     flex-wrap: wrap;
     margin-right: -20px;
     margin-left: -20px;
+    transition: height 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
 
     @media(max-width: 1340px) {
       margin-right: 0;
@@ -35,14 +36,24 @@
     }
 
      &-menu {
-      display: none;
+      display: flex;
       justify-content: space-between;
+      flex-wrap: wrap;
       margin: 0 auto;
-      max-width: 800px;
+      max-width: 1200px;
+       width: 100%;
+
 
       &-link{
         color: #919191;
         text-decoration: none;
+        cursor: pointer;
+        font-size: 16px;
+        padding: 10px;
+
+        &:hover {
+          color: #2ecc71;
+        }
       }
     }
   }
@@ -55,6 +66,9 @@
     text-align: left;
     font-size: 14px;
     overflow: hidden;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: transform, opacity;
     transition: 0.2s;
 
     @media(max-width: 1340px) {
@@ -113,4 +127,11 @@
 
 .current-link {
   color: #2ecc71;
+}
+
+.active {
+  display: block;
+}
+.hidden {
+  display: none;
 }
